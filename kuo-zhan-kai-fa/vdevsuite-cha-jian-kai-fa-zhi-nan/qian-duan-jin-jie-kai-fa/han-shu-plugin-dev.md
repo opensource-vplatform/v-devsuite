@@ -9,7 +9,7 @@ description: >-
 
 &#x20;        在进行前端函数二次开发之前，首先需要了解前端函数二次开发的开发流程，以便于在整体轮廓上理解二次开发流程。如下图
 
-![函数开发流程图](<../../../.gitbook/assets/image (7).png>)
+![函数开发流程图](<../../../.gitbook/assets/image (8).png>)
 
 ## 元数据编辑
 
@@ -136,7 +136,7 @@ com.yindangu.client.function.moneyToChinese = function(money){
 
 &#x20;       函数部署前，需要将元数据manifest.json文件及函数定义js文件打包成zip，**其中manifest.json文件需放置在根目录下**，其他文件可以自定义目录，在元数据中填入相对路径即可。
 
-![函数压缩包](<../../../.gitbook/assets/image (1).png>)
+![函数压缩包](<../../../.gitbook/assets/image (4).png>)
 
 &#x20;       此时函数二次开发工作已完成，然后需要发布插件，操作请参考《发布插件》一节
 
@@ -152,7 +152,7 @@ com.yindangu.client.function.moneyToChinese = function(money){
 
 &#x20;       待开发系统安装完成后，二次开发函数的使用方法与平台内部提供的函数一样，在表达式编辑器中直接使用，如下图：
 
-![](<../../../.gitbook/assets/image (4).png>)
+![](<../../../.gitbook/assets/image (5).png>)
 
 ## 高阶晋级
 
@@ -162,7 +162,7 @@ com.yindangu.client.function.moneyToChinese = function(money){
 
 首先按照nodejs规范创建nodejs插件，编写源码。如下图：
 
-![](<../../../.gitbook/assets/image (5).png>)
+![](<../../../.gitbook/assets/image (2).png>)
 
 使用打包插件打包源码，本文已rollup为例，配置如下：
 

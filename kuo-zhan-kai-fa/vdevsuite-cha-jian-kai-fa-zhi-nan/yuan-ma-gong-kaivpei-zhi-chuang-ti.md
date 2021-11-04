@@ -40,23 +40,23 @@ description: V-AppBase的窗体级源码公开
 
 &#x20;在订阅代码视图中，先选择代码所在的企业，点击刷新，即可看到被授权的构件清单中的业务构件。“订阅代码视图”支持直接查看代码。
 
-![](<../../.gitbook/assets/image (42).png>)
+![](<../../.gitbook/assets/image (48).png>)
 
 右键订阅构件，可以将构件另存为本地文件。找到“vbase\_organization\_facade”构件右键“另存为”。
 
-![](<../../.gitbook/assets/image (43).png>)
+![](<../../.gitbook/assets/image (41).png>)
 
-![](<../../.gitbook/assets/image (44).png>)
+![](<../../.gitbook/assets/image (45).png>)
 
 3.定制窗体
 
 将V-AppBase的开源构件另存为本地文件后，可在构件视图中对构件窗体进行定制化，找到“人员选择（多选）”窗体，新增一个布尔框用于过滤是否离职的人员。
 
-![](<../../.gitbook/assets/image (45).png>)
+![](<../../.gitbook/assets/image (46).png>)
 
 实现对应的值改变事件
 
-![](<../../.gitbook/assets/image (46).png>)
+![](<../../.gitbook/assets/image (50).png>)
 
 4.部署构件到vstore云仓库
 
@@ -64,13 +64,13 @@ description: V-AppBase的窗体级源码公开
 
 注意所有V-AppBase的窗体定制，目前的粒度是到构件级别，即不管定制了这个构件里面一个还是多个窗体，也需要以构件的粒度进行部署和后续的替代
 
-![](<../../.gitbook/assets/image (47).png>)
+![](<../../.gitbook/assets/image (43).png>)
 
 5.VTeam设置优先级
 
 5.1登录到vteam找到所在项目，将刚部署好的构件添加到清单中
 
-![](<../../.gitbook/assets/image (48).png>)
+![](<../../.gitbook/assets/image (44).png>)
 
 5.2设置优先级，以自己定制的构件优先生效
 
@@ -82,4 +82,4 @@ description: V-AppBase的窗体级源码公开
 
 服务安装好清单，（或原先已经安装好进行产品升级后），打开窗体即可看到效果
 
-![](<../../.gitbook/assets/image (50).png>)
+![](<../../.gitbook/assets/image (47).png>)

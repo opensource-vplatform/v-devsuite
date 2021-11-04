@@ -42,71 +42,71 @@
 
 ### 产品结构图
 
-![产品结构图](<../../.gitbook/assets/image (52).png>)
+![产品结构图](<../../.gitbook/assets/image (73).png>)
 
 ### 可视化开发
 
 * 可视化的功能界面开发
 
-![可视化的功能界面开发](<../../.gitbook/assets/image (53).png>)
+![可视化的功能界面开发](<../../.gitbook/assets/image (78).png>)
 
 * 可视化的业务逻辑开发
 
-![可视化的业务逻辑开发](<../../.gitbook/assets/image (54).png>)
+![可视化的业务逻辑开发](<../../.gitbook/assets/image (60).png>)
 
 * 可视化的界面实体字段设计
 
-![可视化的界面实体字段设计](<../../.gitbook/assets/image (55).png>)
+![可视化的界面实体字段设计](<../../.gitbook/assets/image (69).png>)
 
 * 可视化的物理表字段设计
 
-![可视化的物理表字段设计](<../../.gitbook/assets/image (56).png>)
+![可视化的物理表字段设计](<../../.gitbook/assets/image (57).png>)
 
 * 可视化的应用服务接口API注册与实现
 
-![可视化的应用服务接口API注册与实现](<../../.gitbook/assets/image (57).png>)
+![可视化的应用服务接口API注册与实现](<../../.gitbook/assets/image (67).png>)
 
 * 使用规则库实现业务逻辑的装配式开发
 
-![使用规则库实现业务逻辑的装配式开发](<../../.gitbook/assets/image (58).png>)
+![使用规则库实现业务逻辑的装配式开发](<../../.gitbook/assets/image (72).png>)
 
 * 拖、拉、拽的方式选取控件进行功能界面的装配式开发
 
-![拖、拉、拽的方式选取控件进行功能界面的装配式开发](<../../.gitbook/assets/image (59).png>)
+![拖、拉、拽的方式选取控件进行功能界面的装配式开发](<../../.gitbook/assets/image (56).png>)
 
 * 提供SQL查询语句的设计
 
-![提供SQL查询语句的设计](<../../.gitbook/assets/image (62).png>)
+![提供SQL查询语句的设计](<../../.gitbook/assets/image (66).png>)
 
 * 提供丰富的通用函数库进行业务逻辑的表达式编辑
 
-![提供丰富的通用函数库进行业务逻辑的表达式编辑](<../../.gitbook/assets/image (61).png>)
+![提供丰富的通用函数库进行业务逻辑的表达式编辑](<../../.gitbook/assets/image (75).png>)
 
 ### 业务基础平台
 
 * 用户首页
 
-![基础平台默认用户首页](<../../.gitbook/assets/image (63).png>)
+![基础平台默认用户首页](<../../.gitbook/assets/image (59).png>)
 
 * 流程审批页面
 
-![流程审批页面](<../../.gitbook/assets/image (66).png>)
+![流程审批页面](<../../.gitbook/assets/image (71).png>)
 
 * 组织机构人员设置
 
-![组织机构人员设置](<../../.gitbook/assets/image (67).png>)
+![组织机构人员设置](<../../.gitbook/assets/image (55).png>)
 
 * 菜单权限、功能权限、数据权限权限设置
 
-![菜单权限、功能权限、数据权限权限设置](<../../.gitbook/assets/image (68).png>)
+![菜单权限、功能权限、数据权限权限设置](<../../.gitbook/assets/image (65).png>)
 
 * 工作流设计
 
-![工作流设计](<../../.gitbook/assets/image (69).png>)
+![工作流设计](<../../.gitbook/assets/image (77).png>)
 
 * 流程表单管理
 
-![流程表单管理](<../../.gitbook/assets/image (70).png>)
+![流程表单管理](<../../.gitbook/assets/image (76).png>)
 
 ### 温馨提示！
 

@@ -24,7 +24,7 @@ description: 属性编辑器定义为用户在开系统中使用前端二次开�
 
 ### 界面效果
 
-![](<../../../.gitbook/assets/image (16).png>)
+![](<../../../.gitbook/assets/image (23).png>)
 
 ## 文本编辑器
 
@@ -46,7 +46,7 @@ description: 属性编辑器定义为用户在开系统中使用前端二次开�
 
 ### 界面效果
 
-![](<../../../.gitbook/assets/image (17).png>)
+![](<../../../.gitbook/assets/image (31).png>)
 
 ## 日期编辑器
 
@@ -68,7 +68,7 @@ description: 属性编辑器定义为用户在开系统中使用前端二次开�
 
 ### 界面效果
 
-![](<../../../.gitbook/assets/image (18).png>)
+![](<../../../.gitbook/assets/image (21).png>)
 
 ## 日期时间编辑器
 
@@ -90,7 +90,7 @@ description: 属性编辑器定义为用户在开系统中使用前端二次开�
 
 ### 界面效果
 
-![](<../../../.gitbook/assets/image (18).png>)
+![](<../../../.gitbook/assets/image (21).png>)
 
 ## 布尔编辑器
 
@@ -110,7 +110,7 @@ description: 属性编辑器定义为用户在开系统中使用前端二次开�
 
 ### 界面效果
 
-![](<../../../.gitbook/assets/image (19).png>)
+![](<../../../.gitbook/assets/image (29).png>)
 
 ## 整数编辑器
 
@@ -130,7 +130,7 @@ description: 属性编辑器定义为用户在开系统中使用前端二次开�
 
 ### 界面效果
 
-![](<../../../.gitbook/assets/image (20).png>)
+![](<../../../.gitbook/assets/image (19).png>)
 
 ## 小数编辑器
 
@@ -150,7 +150,7 @@ description: 属性编辑器定义为用户在开系统中使用前端二次开�
 
 ### 界面效果
 
-![](<../../../.gitbook/assets/image (21).png>)
+![](<../../../.gitbook/assets/image (32).png>)
 
 ## 下拉选择编辑器
 
@@ -187,7 +187,7 @@ description: 属性编辑器定义为用户在开系统中使用前端二次开�
 
 ### 界面效果
 
-![](<../../../.gitbook/assets/image (22).png>)
+![](<../../../.gitbook/assets/image (33).png>)
 
 ## 单选组编辑器
 
@@ -224,7 +224,7 @@ description: 属性编辑器定义为用户在开系统中使用前端二次开�
 
 ### 界面效果
 
-![](<../../../.gitbook/assets/image (23).png>)
+![](<../../../.gitbook/assets/image (18).png>)
 
 ## 宽度编辑器
 
@@ -256,7 +256,7 @@ ps：括号中的值为标识值；其中\*为整数值
 
 ### 界面效果
 
-![](<../../../.gitbook/assets/image (24).png>)
+![](<../../../.gitbook/assets/image (22).png>)
 
 ## 高度编辑器
 
@@ -288,7 +288,7 @@ ps：括号中的值为标识值；其中\*为整数值
 
 ### 界面效果
 
-![](<../../../.gitbook/assets/image (25).png>)
+![](<../../../.gitbook/assets/image (20).png>)
 
 ## 实体选择器
 
@@ -311,7 +311,7 @@ ps：括号中的值为标识值；其中\*为整数值
 
 ### 界面效果
 
-![](<../../../.gitbook/assets/image (26).png>)
+![](<../../../.gitbook/assets/image (27).png>)
 
 ## 字段选择器
 
@@ -326,7 +326,7 @@ ps：括号中的值为标识值；其中\*为整数值
 
 字段选择器在使用时，需先选择实体；entityProp属性值为控件绑定实体属性编码，其规范为\[parent.]\[控件属性编码],parent代表父控件，例：parent.parent.TableName,代表关联父控件的父控件的TableName属性。如果实体关联属性未设置，应提示：
 
-![](<../../../.gitbook/assets/image (27).png>)
+![](<../../../.gitbook/assets/image (16).png>)
 
 点击前往选择后，跳转到对应的控件属性设置。
 
@@ -363,7 +363,7 @@ ps：括号中的值为标识值；其中\*为整数值
 
 ### 界面效果
 
-![](<../../../.gitbook/assets/image (29).png>)
+![](<../../../.gitbook/assets/image (24).png>)
 
 ## 方法选择器
 
@@ -385,7 +385,7 @@ ps：括号中的值为标识值；其中\*为整数值
 
 ### 界面效果
 
-![](<../../../.gitbook/assets/image (30).png>)
+![](<../../../.gitbook/assets/image (17).png>)
 
 ## 资源选择器
 
@@ -407,7 +407,7 @@ ps：括号中的值为标识值；其中\*为整数值
 
 ### 界面效果
 
-![](<../../../.gitbook/assets/image (31).png>)
+![](<../../../.gitbook/assets/image (25).png>)
 
 ## 左边距编辑器
 
@@ -429,7 +429,7 @@ ps：括号中的值为标识值；其中\*为整数值
 
 ### 界面效果
 
-![](<../../../.gitbook/assets/image (32).png>)
+![](<../../../.gitbook/assets/image (26).png>)
 
 ## 上边距编辑器
 
@@ -451,7 +451,7 @@ ps：括号中的值为标识值；其中\*为整数值
 
 ### 界面效果
 
-![](<../../../.gitbook/assets/image (33).png>)
+![](<../../../.gitbook/assets/image (30).png>)
 
 ## 表达式编辑器
 

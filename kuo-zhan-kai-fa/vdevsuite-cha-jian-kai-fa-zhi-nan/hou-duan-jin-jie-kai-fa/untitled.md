@@ -4,7 +4,7 @@
 
 * 在VSCode的“设置”这里找到maven的settings.xml文件，具体路径以当前环境安装maven路径为准
 
-![](<../../../.gitbook/assets/0 (1).png>)
+![](../../../.gitbook/assets/0.png)
 
 * 在maven的settings.xml中添加银弹谷maven私库地址信息
 
@@ -30,7 +30,7 @@
 </profile>
 ```
 
-![](<../../../.gitbook/assets/1 (1).png>)
+![](../../../.gitbook/assets/1.png)
 
 ## 2. 创建maven项目
 
@@ -38,11 +38,11 @@
 * 弹出的输入框输入"maven"
 * 选择Create Maven Project
 
-![](<../../../.gitbook/assets/2 (1).png>)
+![](../../../.gitbook/assets/2.png)
 
 * 选择maven-archetype-quickstart
 
-![](<../../../.gitbook/assets/3 (1).png>)
+![](../../../.gitbook/assets/3.png)
 
 * 选择1.4
 
@@ -62,11 +62,11 @@
 
 * 确认maven project的版本号，这个版本号对于V-DevSuite没什么用处，本例子直接按回车键Enter，产生1.0-SNAPSHOT
 
-![](<../../../.gitbook/assets/8 (1).png>)
+![](../../../.gitbook/assets/8.png)
 
 * 确认maven project的元信息，本例子直接按Enter回车键，直接生成maven工程
 
-![](<../../../.gitbook/assets/9 (1).png>)
+![](../../../.gitbook/assets/9.png)
 
 * 选择“将文件夹添加到工作区”，加载刚才创建的maven project
 
@@ -106,7 +106,7 @@
 </plugins>
 ```
 
-![](<../../../.gitbook/assets/11 (1).png>)
+![](../../../.gitbook/assets/11.png)
 
 * pom.xml中的dependency节点，即maven依赖模块，必须要填入以下依赖，如果插件开发的代码需要用到其他第三方的maven依赖jar的，也需要加入，并且把这些第三方依赖jar放到当前工程编译后的jar包的lib目录下，不然插件运行时会因为找不到第三方依赖jar而报错。
 
@@ -128,7 +128,7 @@
 </dependency>
 ```
 
-![](<../../../.gitbook/assets/12 (1).png>)
+![](../../../.gitbook/assets/12.png)
 
 ## 4. 后台函数的开发示例
 
@@ -136,7 +136,7 @@
 
 ![](../../../.gitbook/assets/13.png)
 
-![](<../../../.gitbook/assets/14 (1).png>)
+![](../../../.gitbook/assets/14.png)
 
 ## 5. 插件注册器的开发示例
 
@@ -152,13 +152,13 @@
 
 * 插件开发完成，执行maven install
 
-![](<../../../.gitbook/assets/17 (1).png>)
+![](../../../.gitbook/assets/17.png)
 
 ## 7. 把原始jar包部署到云空间
 
 * 找到maven install之后在项目的target目录下产生的jar文件，准备做后面上传云空间使用
 
-![](<../../../.gitbook/assets/18 (1).png>)
+![](../../../.gitbook/assets/18.png)
 
 * 安装最新版的开发系统V-AppDesigner，点击扩展管理，把编译后的jar上传到云空间（也可以放不到本地，用于本地环境调试，后面的步骤会介绍）
 
@@ -180,7 +180,7 @@
 
 * 更新云空间之后，就可以在开发系统中使用刚安装的二次开发的后台函数插件了
 
-![](../../../.gitbook/assets/23.png)
+![](<../../../.gitbook/assets/23 (1).png>)
 
 ## 9. 在开发环境调试代码
 
@@ -188,13 +188,13 @@
 
 选择“发布到本地”->点击“原生包选择”的文件选择按钮->选中maven install后的本地jar包->点击“目标存储”的文件选择按钮->选中硬盘某一个目录存放云编译后的增强jar包（只有经过云编译增强的jar包才可以在V-AppServer执行系统中运行）
 
-![](../../../.gitbook/assets/24.png)
+![](<../../../.gitbook/assets/24 (1).png>)
 
 ![](<../../../.gitbook/assets/25 (1).png>)
 
 ![](<../../../.gitbook/assets/26 (1).png>)
 
-![](<../../../.gitbook/assets/27 (1).png>)
+![](../../../.gitbook/assets/27.png)
 
 开发自测插件的时候，可以把增强后的jar包放到V-AppServer执行系统的patch目录下
 
@@ -218,13 +218,13 @@
 
 * 这时候可以进入“本地构件管理”窗体，查找刚安装的插件，注意插件名称为插件开发时候注册定义的构件编码，显示已安装的构件已经是active状态，即已经安装并启动成功，可以直接运行使用
 
-![](<../../../.gitbook/assets/31 (1).png>)
+![](../../../.gitbook/assets/31.png)
 
 ### 9.2 动态更新插件调试
 
 * 如果之前已经安装构件，则放到patch目录之后，点击“本地构件管理”对应构件的更新按钮，刷新构件到最新，更新完可以查看构件的最后修改时间应该是覆盖到patch目录的增强jar包的产生时间，构件安装时间是刚点击更新按钮的时间。
 
-![](<../../../.gitbook/assets/32 (1).png>)
+![](../../../.gitbook/assets/32.png)
 
 ### 9.3 简化的构件调试方式
 

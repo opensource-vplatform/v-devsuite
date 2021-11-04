@@ -1,12 +1,26 @@
 ---
-description: 插件输入参数可以定义指定的编辑器，目前后台支持3种编辑器
+description: 规则、函数都有输入参数和输出参数
 ---
 
-# 参数编辑器
+# 参数
 
-## 表达式编辑器
+## 输入参数
 
-表达式编辑器，是最常用的编辑器，它可以输入常量、变量、函数等表达式，如果没有指定编辑器类型，系统默认使用表达式编辑器。如果参数是实体类型，就默认使用实体编辑器。
+如果没有特别说明，所有参数默认使用java标准类型
+
+## 输出参数
+
+如果没有特别说明，所有参数默认使用java标准类型。
+
+这里明确一下：规则的实体输出类型是List\<Map>类型
+
+## 编辑器
+
+插件输入参数可以定义指定的编辑器，目前后台支持3种编辑器
+
+### 表达式编辑器
+
+表达式编辑器，是最常用的编辑器，它可以输入常量方法、变量、函数等表达式，如果没有指定编辑器类型，系统默认使用表达式编辑器。如果参数是实体类型，就默认使用实体编辑器。
 
 ```java
 IEditorBuilder editorBuild2 = RegVds.getBuilder().getEditorBuilder();
@@ -22,7 +36,7 @@ IRuleBuilder.IRuleInputBuilder inputParamField = br.newInput()
 
 ![表达式编辑器](../../../.gitbook/assets/jar-edit-exp.png)
 
-## 实体编辑器
+### 实体编辑器
 
 插件入参需要实体作为参数时，就要使用实体编辑器。
 
@@ -52,7 +66,7 @@ IPluginProfileVo p4 = br2.setCode(NumberUpperRolueEntity.D_Code).setName("把指
 
 ![实体编辑器](../../../.gitbook/assets/jar-entity.png)
 
-## 下拉选择编辑器
+### 下拉选择编辑器
 
 下拉选择编辑器，对于枚举类型，及指定值的参数。
 

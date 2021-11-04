@@ -105,11 +105,11 @@
 * 其他指标
 * 图例
 
-![云监控，服务调用关系、请求耗时时间分布](<../../.gitbook/assets/image (72).png>)
+![云监控，服务调用关系、请求耗时时间分布](<../../.gitbook/assets/image (54).png>)
 
-![请求调用链耗时记录](<../../.gitbook/assets/image (73).png>)
+![请求调用链耗时记录](<../../.gitbook/assets/image (70).png>)
 
-![CPU、内存、线程、吞吐量、响应耗时...](<../../.gitbook/assets/image (75).png>)
+![CPU、内存、线程、吞吐量、响应耗时...](<../../.gitbook/assets/image (53).png>)
 
 #### V平台提供V-AppServer（执行系统）本地监控功能
 
@@ -121,11 +121,11 @@
 * 查询缓存监控
 * 图例
 
-![CPU、内存](<../../.gitbook/assets/image (76).png>)
+![CPU、内存](<../../.gitbook/assets/image (58).png>)
 
-![线程、任务统计](<../../.gitbook/assets/image (78).png>)
+![线程、任务统计](<../../.gitbook/assets/image (61).png>)
 
-![jvm内存、操作系统内存、CPU、并发请求](<../../.gitbook/assets/image (79).png>)
+![jvm内存、操作系统内存、CPU、并发请求](<../../.gitbook/assets/image (64).png>)
 
 #### 终端用户体验分析_（coming soon...）_
 
